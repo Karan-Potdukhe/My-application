@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "40028494797",
+    "firebase_url": "https://printcopy-6887e.firebaseio.com",
+    "project_id": "printcopy-6887e",
+    "storage_bucket": "printcopy-6887e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:40028494797:android:0656708ec24fe2a591c284",
+        "android_client_info": {
+          "package_name": "com.printya.printcopy"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "40028494797-f4afdl24r83g0kcinrb6fg38tpu33e5c.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.printya.printcopy",
+            "certificate_hash": "59d6a399356d6f63262938d11470dca2bc62e13d"
+          }
+        },
+        {
+          "client_id": "40028494797-pv02sumho5k6n5puhbmppbv5g3n4niei.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCVQBDxRTvXBJoTsFgQPHNkqb-_zK9XLYc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "40028494797-pv02sumho5k6n5puhbmppbv5g3n4niei.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

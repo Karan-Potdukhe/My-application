@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".GaneshCards">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+
+            <TextView
+                android:id="@+id/texta"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:layout_marginTop="10dp"
+                android:textSize="15dp"
+                android:textStyle="bold"
+                android:textColor="#EB0D0D"
+                android:text="Theme Of Hindu Wedding Card"/>
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/textb"
+                    android:background="#82CA2F"
+                    android:layout_width="match_parent"
+                    android:textAlignment="center"
+                    android:textSize="16sp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="50dp"
+                    android:text="Ganesha Theme Wedding Cards"
+                    android:textStyle="italic"
+                    android:textColor="#D31111"/>
+
+                <ImageView
+                    android:id="@+id/imagega"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/textb"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="10dp"
+                    android:src="@drawable/themegcarda"/>
+
+                <ImageView
+                    android:id="@+id/imagegb"
+                    android:layout_width="wrap_content"
+                    android:layout_toRightOf="@+id/imagega"
+                    android:layout_below="@+id/textb"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/themegcardb"/>
+                <ImageView
+                    android:id="@+id/imagegc"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/imagega"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="20dp"
+                    android:src="@drawable/themegcardc"/>
+                <ImageView
+                    android:id="@+id/imagegd"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/imagega"
+                    android:layout_toRightOf="@+id/imagegc"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="10dp"
+                    android:src="@drawable/themegcardd"/>
+
+                <ImageView
+                    android:id="@+id/imagege"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/imagegc"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="10dp"
+                    android:src="@drawable/themecarde"/>
+
+                <ImageView
+                    android:id="@+id/imagegf"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/imagegd"
+                    android:layout_toRightOf="@+id/imagegc"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="10dp"
+                    android:src="@drawable/themegcardf"/>
+
+                <ImageView
+                    android:id="@+id/imagegg"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/imagege"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="10dp"
+                    android:src="@drawable/themegcardg"/>
+
+                <ImageView
+                    android:id="@+id/imagegh"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/imagegf"
+                    android:layout_toRightOf="@+id/imagegc"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="10dp"
+                    android:src="@drawable/themegcardh"/>
+
+                <ImageView
+                    android:id="@+id/imagegi"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/imagegg"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="10dp"
+                    android:src="@drawable/themegcardi"/>
+
+                <ImageView
+                    android:id="@+id/imagegj"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/imagegh"
+                    android:layout_toRightOf="@+id/imagegi"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="10dp"
+                    android:src="@drawable/themegcardj"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/imagegi"
+                    android:layout_marginTop="10dp"
+                    android:text="ABC XYZ"
+                    android:textSize="16sp"
+                    android:textAlignment="center"
+                    android:textColor="#DA1515"
+                    android:textStyle="italic"
+                    android:background="#74C417"/>
+
+
+
+
+
+
+
+            </RelativeLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

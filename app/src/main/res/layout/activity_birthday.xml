@@ -1,0 +1,402 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".birthday">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/welcome"
+                android:layout_marginLeft="5dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/welcomebirth">
+            </ImageView>
+            <TextView
+                android:id="@+id/premium"
+                android:layout_below="@+id/welcome"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:textColor="#000"
+                android:layout_marginLeft="10dp"
+                android:text="Premium Designs:-">
+
+            </TextView>
+            <HorizontalScrollView
+                android:layout_marginTop="230dp"
+                android:layout_width="match_parent"
+                android:layout_height="260dp">
+                <RelativeLayout
+                    android:layout_marginLeft="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="260dp"
+                    android:background="#F57F17">
+
+
+                    <androidx.cardview.widget.CardView
+                        android:id="@+id/a"
+                        android:layout_width="wrap_content"
+                        android:layout_height="250dp"
+                        app:cardCornerRadius="10dp"
+                        app:cardMaxElevation="20dp">
+                        <ImageView
+                            android:id="@+id/aa"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:src="@drawable/xxab"></ImageView>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Starting @ Rs:200/-"
+                            android:layout_marginTop="230dp"
+                            android:textSize="15dp"
+                            android:textStyle="bold"
+                            android:layout_marginLeft="10dp"
+                            android:textColor="#000"></TextView>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Card No.P-101"
+                            android:layout_marginTop="210dp"
+                            android:textSize="15dp"
+                            android:textStyle="bold"
+                            android:layout_marginLeft="10dp"
+                            android:textColor="#000"></TextView>
+
+                    </androidx.cardview.widget.CardView>
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_marginLeft="360dp"
+                        android:id="@+id/b"
+                        android:layout_width="wrap_content"
+                        android:layout_height="250dp"
+                        app:cardCornerRadius="10dp"
+                        app:cardMaxElevation="20dp">
+
+                        <ImageView
+                            android:id="@+id/bb"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:src="@drawable/xxb"></ImageView>
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Starting @ Rs:200/-"
+                            android:layout_marginTop="230dp"
+                            android:textSize="15dp"
+                            android:textStyle="bold"
+                            android:layout_marginLeft="10dp"
+                            android:textColor="#000"></TextView>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Card No.P-102"
+                            android:layout_marginTop="210dp"
+                            android:textSize="15dp"
+                            android:textStyle="bold"
+                            android:layout_marginLeft="10dp"
+                            android:textColor="#000"></TextView>
+
+                    </androidx.cardview.widget.CardView>
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_marginLeft="720dp"
+                        android:id="@+id/c"
+                        android:layout_width="wrap_content"
+                        android:layout_height="250dp"
+                        app:cardCornerRadius="10dp"
+                        app:cardMaxElevation="20dp">
+
+                        <ImageView
+                            android:id="@+id/cc"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:src="@drawable/xxcc"></ImageView>
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Starting @ Rs:200/-"
+                            android:layout_marginTop="230dp"
+                            android:textSize="15dp"
+                            android:textStyle="bold"
+                            android:layout_marginLeft="10dp"
+                            android:textColor="#000"></TextView>
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Card No.P-103"
+                            android:layout_marginTop="210dp"
+                            android:textSize="15dp"
+                            android:textStyle="bold"
+                            android:layout_marginLeft="10dp"
+                            android:textColor="#000"></TextView>
+
+                    </androidx.cardview.widget.CardView>
+                </RelativeLayout>
+            </HorizontalScrollView>
+            <TextView
+                android:id="@+id/special"
+                android:layout_marginTop="500dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:textColor="#000"
+                android:layout_marginLeft="10dp"
+                android:text="Especially for you:-">
+
+            </TextView>
+
+            <HorizontalScrollView
+                android:layout_below="@+id/special"
+                android:layout_width="match_parent"
+                android:layout_height="300dp">
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="300dp"
+                    android:layout_marginLeft="10dp">
+                    <androidx.cardview.widget.CardView
+                        android:id="@+id/d"
+                        android:layout_width="wrap_content"
+                        android:layout_height="250dp"
+                        app:cardCornerRadius="10dp"
+                        app:cardMaxElevation="20dp">
+                        <ImageView
+                            android:id="@+id/dd"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:src="@drawable/xxd"></ImageView>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Starting @ Rs:200/-"
+                            android:layout_marginTop="230dp"
+                            android:textSize="15dp"
+                            android:textStyle="bold"
+                            android:layout_marginLeft="10dp"
+                            android:textColor="#000"></TextView>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Card No.SP-101"
+                            android:layout_marginTop="210dp"
+                            android:textSize="15dp"
+                            android:textStyle="bold"
+                            android:layout_marginLeft="10dp"
+                            android:textColor="#000"></TextView>
+
+                    </androidx.cardview.widget.CardView>
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_marginLeft="360dp"
+                        android:id="@+id/e"
+                        android:layout_width="wrap_content"
+                        android:layout_height="250dp"
+                        app:cardCornerRadius="10dp"
+                        app:cardMaxElevation="20dp">
+
+                        <ImageView
+                            android:id="@+id/ee"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:src="@drawable/xxe"></ImageView>
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Starting @ Rs:200/-"
+                            android:layout_marginTop="230dp"
+                            android:textSize="15dp"
+                            android:textStyle="bold"
+                            android:layout_marginLeft="10dp"
+                            android:textColor="#000"></TextView>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Card No.SP-102"
+                            android:layout_marginTop="210dp"
+                            android:textSize="15dp"
+                            android:textStyle="bold"
+                            android:layout_marginLeft="10dp"
+                            android:textColor="#000"></TextView>
+
+                    </androidx.cardview.widget.CardView>
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_marginLeft="720dp"
+                        android:id="@+id/f"
+                        android:layout_width="wrap_content"
+                        android:layout_height="250dp"
+                        app:cardCornerRadius="10dp"
+                        app:cardMaxElevation="20dp">
+
+                        <ImageView
+                            android:id="@+id/ff"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:src="@drawable/xxf"></ImageView>
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Starting @ Rs:200/-"
+                            android:layout_marginTop="230dp"
+                            android:textSize="15dp"
+                            android:textStyle="bold"
+                            android:layout_marginLeft="10dp"
+                            android:textColor="#000"></TextView>
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Card No.SP-103"
+                            android:layout_marginTop="210dp"
+                            android:textSize="15dp"
+                            android:textStyle="bold"
+                            android:layout_marginLeft="10dp"
+                            android:textColor="#000"></TextView>
+
+                    </androidx.cardview.widget.CardView>
+
+
+
+
+                </RelativeLayout>
+            </HorizontalScrollView>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Simple Designs:-"
+                android:layout_marginTop="800dp"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:textColor="#000"
+                android:layout_marginLeft="10dp"></TextView>
+            <androidx.cardview.widget.CardView
+                android:id="@+id/gg"
+                android:layout_marginTop="830dp"
+                android:layout_marginLeft="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="250dp"
+                app:cardMaxElevation="20dp"
+                app:cardCornerRadius="10dp">
+
+                <ImageView
+                    android:id="@+id/g"
+                    android:layout_marginLeft="0dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/xxg"></ImageView>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Starting @ Rs:200/-"
+                    android:layout_marginTop="230dp"
+                    android:textSize="15dp"
+                    android:textStyle="bold"
+                    android:layout_marginLeft="10dp"
+                    android:textColor="#000"></TextView>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Card No.S-401"
+                    android:layout_marginTop="210dp"
+                    android:textSize="15dp"
+                    android:textStyle="bold"
+                    android:layout_marginLeft="10dp"
+                    android:textColor="#000"></TextView>
+
+
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_below="@+id/gg"
+                android:id="@+id/hh"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="250dp"
+                app:cardMaxElevation="20dp"
+                app:cardCornerRadius="10dp">
+
+                <ImageView
+                    android:id="@+id/h"
+                    android:layout_marginLeft="0dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/xxh"></ImageView>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Starting @ Rs:200/-"
+                    android:layout_marginTop="230dp"
+                    android:textSize="15dp"
+                    android:textStyle="bold"
+                    android:layout_marginLeft="10dp"
+                    android:textColor="#000"></TextView>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Card No.S-402"
+                    android:layout_marginTop="210dp"
+                    android:textSize="15dp"
+                    android:textStyle="bold"
+                    android:layout_marginLeft="10dp"
+                    android:textColor="#000"></TextView>
+
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_below="@+id/hh"
+                android:id="@+id/ii"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="250dp"
+                app:cardMaxElevation="20dp"
+                app:cardCornerRadius="10dp">
+
+                <ImageView
+                    android:id="@+id/i"
+                    android:layout_marginLeft="0dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/xxi"></ImageView>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Starting @ Rs:200/-"
+                    android:layout_marginTop="230dp"
+                    android:textSize="15dp"
+                    android:textStyle="bold"
+                    android:layout_marginLeft="10dp"
+                    android:textColor="#000"></TextView>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Card No.S-403"
+                    android:layout_marginTop="210dp"
+                    android:textSize="15dp"
+                    android:textStyle="bold"
+                    android:layout_marginLeft="10dp"
+                    android:textColor="#000"></TextView>
+
+
+            </androidx.cardview.widget.CardView>
+        </RelativeLayout>
+    </ScrollView>
+
+
+</RelativeLayout>

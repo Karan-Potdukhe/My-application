@@ -1,0 +1,327 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:id="@+id/rel1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <SearchView
+                android:id="@+id/seea"
+                android:queryHint="search here"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+                android:background="#FCF9F9"
+                android:backgroundTint="#F1DFDF">
+
+            </SearchView>
+
+            <TextView
+                android:id="@+id/print"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:background="@drawable/backg"
+                android:layout_marginTop="70dp"
+                android:text=" PRINTING SOLUTIONS SPECIALS:-"
+                android:textColor="#000"
+                android:textSize="20dp"
+                android:textStyle="bold">
+
+            </TextView>
+
+            <ImageView
+                android:id="@+id/visiting"
+                android:layout_width="150dp"
+                android:layout_height="200dp"
+                android:layout_below="@+id/print"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/visiting"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/visiting"
+                android:layout_marginLeft="30dp"
+                android:text="VISITING CARDS"
+                android:textColor="#000"
+                android:textSize="15dp"
+                android:textStyle="bold">
+
+            </TextView>
+
+            <ImageView
+                android:id="@+id/wedding"
+                android:layout_width="150dp"
+                android:layout_height="200dp"
+                android:layout_below="@+id/print"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_toRightOf="@+id/visiting"
+                android:src="@drawable/wedding">
+            </ImageView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/wedding"
+                android:layout_marginLeft="35dp"
+                android:layout_toRightOf="@+id/visiting"
+                android:text="WEDDING CARDS"
+                android:textColor="#000"
+                android:textSize="15dp"
+                android:textStyle="bold">
+            </TextView>
+            <ImageView
+                android:id="@+id/pamp"
+                android:layout_width="150dp"
+                android:layout_height="200dp"
+                android:layout_below="@+id/visiting"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="30dp"
+                android:layout_toRightOf="@+id/visiting"
+                android:src="@drawable/pamp"/>
+
+            <ImageView
+                android:id="@+id/banners"
+                android:layout_width="150dp"
+                android:layout_height="200dp"
+                android:layout_below="@+id/visiting"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="30dp"
+                android:src="@drawable/banners">
+            </ImageView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/banners"
+                android:layout_marginLeft="50dp"
+                android:text="BANNERS"
+                android:textColor="#000"
+                android:textStyle="bold"
+                android:textSize="18dp">
+
+            </TextView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/pamp"
+                android:layout_marginLeft="35dp"
+                android:layout_toRightOf="@+id/visiting"
+                android:text="PAMPHLATES"
+                android:textColor="#000"
+                android:textSize="15dp"
+                android:textStyle="bold">
+
+            </TextView>
+            <ImageView
+                android:id="@+id/bill"
+                android:layout_width="150dp"
+                android:layout_height="200dp"
+                android:layout_below="@+id/banners"
+                android:src="@drawable/bill"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="30dp">
+
+            </ImageView>
+            <ImageView
+                android:id="@+id/letter"
+                android:layout_width="150dp"
+                android:layout_height="200dp"
+                android:layout_below="@+id/pamp"
+                android:layout_toRightOf="@id/bill"
+                android:src="@drawable/letter"
+                android:layout_marginTop="30dp"
+                android:layout_marginLeft="20dp">
+
+            </ImageView>
+            <TextView
+                android:layout_below="@+id/bill"
+                android:layout_marginLeft="40dp"
+                android:textStyle="bold"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="BILL BOOKS"
+                android:textSize="20dp"
+                android:textColor="#000"/>
+
+            <TextView
+                android:id="@+id/textletter"
+                android:layout_below="@+id/letter"
+                android:layout_toRightOf="@+id/bill"
+                android:layout_marginLeft="30dp"
+                android:textStyle="bold"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="LETTERHEADS"
+                android:textSize="20dp"
+                android:textColor="#000"/>
+            <TextView
+                android:id="@+id/envetext"
+                android:layout_below="@+id/textletter"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/backg"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:text=" ENVELOPES:-"
+                android:textSize="25dp"
+                android:textStyle="bold"
+                android:textColor="#000"/>
+
+            <ImageView
+                android:id="@+id/enve"
+                android:layout_below="@id/envetext"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/enve"/>
+            <TextView
+                android:id="@+id/cardstext"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_below="@id/enve"
+                android:background="@drawable/backg"
+                android:layout_marginTop="10dp"
+                android:text="   CARDS:-"
+                android:textStyle="bold"
+                android:textColor="#000"
+                android:textSize="25dp"
+                />
+            <HorizontalScrollView
+                android:id="@+id/horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="220dp"
+                android:layout_below="@id/cardstext"
+                android:background="#FDFAFA">
+                <LinearLayout
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <ImageView
+                        android:id="@+id/wedfinal"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/wedfinal"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="10dp"/>
+
+                    <ImageView
+                        android:id="@+id/birthday"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/birth"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="10dp"/>
+                    <ImageView
+                        android:id="@+id/funerala"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/funeral"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginRight="10dp"/>
+
+
+                </LinearLayout>
+            </HorizontalScrollView>
+            <LinearLayout
+                android:id="@+id/linear"
+                android:layout_below="@+id/horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="750dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:background="@drawable/backg"
+                    android:text="   BANNERS and VINYL BOARDS:-"
+                    android:textColor="#000"
+                    android:textSize="20dp"
+                    android:textStyle="bold">
+
+                </TextView>
+                <ImageView
+                    android:id="@+id/ban"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/ban"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="10dp"/>
+                <ImageView
+                    android:id="@+id/vinyl"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/vinyl"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="10dp"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:layout_marginTop="10dp"
+                    android:text=" TYPES OF BUISNESS CARDS:-"
+                    android:background="@drawable/backg"
+                    android:textStyle="bold"
+                    android:textColor="#000"
+                    android:textSize="20dp">
+
+                </TextView>
+
+            </LinearLayout>
+            <HorizontalScrollView
+                android:layout_below="@+id/linear"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="220dp">
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/velvet"
+                        android:layout_marginLeft="10dp"/>
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:src="@drawable/matta"/>
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/texturea"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"/>
+
+
+                </LinearLayout>
+            </HorizontalScrollView>
+
+        </RelativeLayout>
+    </ScrollView>
+
+
+
+
+
+
+
+
+</RelativeLayout>
