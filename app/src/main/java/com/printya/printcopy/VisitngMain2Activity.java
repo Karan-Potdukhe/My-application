@@ -13,4 +13,5 @@ public class VisitngMain2Activity extends AppCompatActivity {
         setContentView(R.layout.activity_visitng_main2);
         Spinner spinner1;
 
-}}
+}
+}
